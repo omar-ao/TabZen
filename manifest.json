@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Zen",
+  "version": "1.0",
+  "description": "A lightweight, powerful Chrome extension designed to help you manage and declustter your browser tabs efficiently. Whether you have a few or dozens of tabs open, TabZen ensures you're always in control, boosting productivity and enhancing your browsing experience.",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "assets/icon.png"
+  },
+  "options_page": "options/options.html",
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "commands": {
+    "toggle-feature": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+T"
+      },
+      "description": "Toggle tab management feature"
+    }
+  }
+}
+
