@@ -2,7 +2,8 @@
   "manifest_version": 3,
   "name": "Tab Zen",
   "version": "1.0",
-  "description": "A lightweight, powerful Chrome extension designed to help you manage and declustter your browser tabs efficiently. Whether you have a few or dozens of tabs open, TabZen ensures you're always in control, boosting productivity and enhancing your browsing experience.",
+  "default_locale": "en",
+  "description": "A lightweight, powerful Chrome extension designed to help you manage and declustter your browser tabs efficiently.",
   "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "background.js"
