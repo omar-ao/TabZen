@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "TabZen",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "TabZen is a lightweight, powerful Chrome extension designed to help you manage and declustter your browser tabs efficiently. Whether you have a few or dozens of tabs open, TabZen ensures you're always in control, boosting productivity and enhancing your browsing experience.",
+    "description": "The description of the extension"
+  }
+}
