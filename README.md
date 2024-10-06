@@ -1,8 +1,5 @@
 # TabZen - The Ultimate Tab Management Extension for Chrome
 
-TabZen is a lightweight, powerful Chrome extension designed to help you manage and declustter your browser tabs efficiently.
-Whether you have a few or dozens of tabs open, TabZen ensures you're always in control, boosting productivity and enhancing your browsing experience.
-
 ## Features:
 * **Close All Tabs:** Instantly close all open tabs with one click, perfect for when your browsing session needs a reset.
 * **Group Tabs:** Automatically group similar tabs based on their domain, making it easier to manage multiple tabs from the same site.
